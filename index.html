@@ -1,0 +1,115 @@
+<!doctype html>
+<!--
+   Basic template
+   -->
+<html lang="en">
+
+	<head>
+		<!-- Makes the page responsive and scaled to be read easily -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Links to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Remember to update page title -->
+		<title>NYC Compost</title>
+	</head>
+
+	<body>
+		<!-- All content goes here -->
+		
+		<!-- Main title section - wrapped in container for consistent width/padding -->
+		<div class="container">
+			<h1>
+				CRAZY FOR COMPOST
+			</h1>
+			<h2> New Yorkers ar 
+  </h2>
+			<h5>By: Laura Pellicer
+			</h5>
+		</div>
+		
+		<!-- Hero image section - NOT in container so it can be full width on mobile, constrained on desktop -->
+		<figure class="top-photo">
+			<!-- Main feature image with descriptive class -->
+			<img class="main_img" src="images/DA9_8272_060325_CP_Tree_Count.jpg" alt="Two people measuring a tree with a tape measure">
+			<!-- Image caption with credit information -->
+			<figcaption class="head-photo">Volunteers help measure and track New York trees in a city-wide tree count. <span class="credit">Credit: NYC Parks</span></figcaption>
+		</figure>
+		
+		<!-- Introductory text section - back in container for consistent width -->
+		<div class="container">
+			<!-- Lead paragraph with special styling (intro class makes it wider on large screens) -->
+			<p class="intro">NYC is currently in the midst of a massive volunteer-led undertaking  –  a once every 10 year <a href="https://www.nycgovparks.org/reg/trees-count"> count of all the trees </a>in the city!
+			</p>
+			<!-- Regular body paragraph -->
+			<p>
+				The count is happening as New York City works to meet <a href="https://www.urbanforestplan.nyc/"> Law 148</a>, which codified increasing tree canopy cover in the city to 30% in the next decade. 
+
+			</p>
+				<!-- Regular body paragraph -->
+			<p>
+				In the face of climate change, trees are critical to reduce pollutants, cool air and ground temperatures, and help soak up stormwater. Those environmental wins also represent real cost savings for the city. Trees save NYC an estimated $260 million in benefits and services every year. 
+			</p>
+		</div>
+		
+		<!-- Section heading - NOT in container but gets width/centering from CSS -->
+		<!-- <h3>Immortality and Health Are Compatible </h3> -->
+		
+		<!-- Three-column layout container - uses inline-block layout (formerly flexbox) -->
+		<!-- flex box on tablet and desktop -->
+		<div class="icon-container"><iframe title="NYC Residential Composting" aria-label="Column Chart" id="datawrapper-chart-TABRA" src="https://datawrapper.dwcdn.net/TABRA/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="474" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script></div>
+		<div class="icon-container">
+			<h3>What NYC trees do for you &#8595 </h3> </h3>
+
+			<!-- First column: Kidney care tip -->
+			<!-- each graphic is actually multiple elements grouped in a div -->
+			<div class="graphic" id="icon1">
+				<!-- Inner wrapper div (could be simplified but maintains structure) -->
+				<div class="icon">
+					<!-- Column title -->
+					<h4>Remove pollutants</h4>
+					<!-- Column icon/image -->
+					<img src="images/noun-clean-air-3578591_cropped.png">
+					<!-- Column description text -->
+					<figcaption class="graphic-text"> Trees remove an estimated 1,100 tons of air pollution from the city. A single tree can remove up to 26 pounds of
+carbon dioxide each year – around the same as 11,000 miles of car emissions. Children in NYC neighborhoods with more trees experience lower rates of asthma.
+					</figcaption>
+				</div>
+			</div>
+			
+			<!-- Second column: Stomach care tip -->
+			<div class="graphic" id="icon2">
+				<div class="icon">
+					<h4>Cool streets and homes</h4>
+					<img src="images/noun-tree-canopy-476740.png">
+					<figcaption class="graphic-text">NYC's tree canopy cools nearby homes, saving the equalivalent of powering 8,000 homes. Beyond the cost savings, they combat the urban heat island effect and make city streets more comfortable to navigate on hot summer days.</figcaption>
+				</div>
+			</div>
+			
+			<!-- Third column: Lung care tip -->
+			<div class="graphic" id="icon3">
+				<div class="icon">
+					<h4>Soak up stormwater</h4>
+					<img src="images/noun-gumboots-1134336-cropped.png">
+					<figcaption class="graphic-text">NYC trees absorb water in both their leaves and root systems. By soaking up water during heavy storms they can reduce stormwater runoff by 69 million cubic feet. The average New York tree absorbs 1,432 gallons of storm water each year.</figcaption>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<div class="container">
+	<h5>
+				<p>This site was built by CUNY Newmark School of Journalism student Laura Pellicer.</p>
+				<p>
+				Sources: https://www.nyc.gov/html/mancb3/downloads/resources/NYC%20Street%20Tree%20Overview.pdf
+				https://tree-map.nycgovparks.org
+				https://www.urbanforestplan.nyc/#why-now
+				https://www.nature.org/en-us/about-us/where-we-work/united-states/new-york/stories-in-new-york/canopy-factsheets-nyc/#:~:text=Keeping%20trees%20healthy%20and%20expanding,minimizing%20impacts%20on%20New%20Yorkers.
+			
+				<p>Icon credit: Boots - Becca O'Shea - The Noun Project 
+					Lungs - Savannah Vize - The Noun Project 
+					Tree - Public Domain - The Noun Project</p>
+			</h5>
+				
+		</div>
+		<h5></h5>
+</html>
